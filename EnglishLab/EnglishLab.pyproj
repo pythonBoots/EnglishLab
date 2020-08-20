@@ -3,6 +3,7 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <Name>EnglishLab</Name>
     <RootNamespace>EnglishLab</RootNamespace>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -34,12 +35,35 @@
     <Compile Include="EnglishLab\settings.py" />
     <Compile Include="EnglishLab\urls.py" />
     <Compile Include="EnglishLab\wsgi.py" />
+    <Compile Include="test_pass\admin.py" />
+    <Compile Include="test_pass\apps.py" />
+    <Compile Include="test_pass\migrations\__init__.py" />
+    <Compile Include="test_pass\models.py" />
+    <Compile Include="test_pass\tests.py" />
+    <Compile Include="test_pass\views.py" />
+    <Compile Include="test_pass\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="test_pass\templates\test_pass\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EnglishLab\" />
+    <Folder Include="test_pass\" />
+    <Folder Include="test_pass\migrations\" />
+    <Folder Include="test_pass\templates\" />
+    <Folder Include="test_pass\templates\test_pass\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.6</Version>
+      <Description>env (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
