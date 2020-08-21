@@ -16,3 +16,12 @@ def index(request):
         }
     )
 
+def about(request):
+    return render(
+        request,
+        "test_pass/about.html",
+        {
+            'title': "About test-pass",
+            'content': "Example app page for Django"
+            }
+        )

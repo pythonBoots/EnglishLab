@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>{{ title }}</title>
-</head>
+{% extends "test_pass/layout.html" %}
+{% block content %}
+<section>
+    <h1>Welcome to EnglishLab</h1>
+    <p>
+        This is a resource for passing tests and not only. Here you can find many 
+        tests to prepare yourself to many exams or drill some topics.
+    </p>
+</section>
+{% endblock %}
 
-<body>
 
-    <strong>{{ message }}</strong>{{ content }}
-
-</body>
-</html>

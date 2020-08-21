@@ -1,0 +1,54 @@
+.menu {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 2px solid grey;
+    box-shadow: 1px 0px 0px 0px rgba(0,0,0, 0.25);
+
+}
+
+.menu div a {
+	color: black;
+	font-size: 18px;
+	font-family: Lucida Bright;
+	font-style: normal;
+	font-weight: 600;
+	
+	text-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+
+}
+
+.user_login {
+	display:flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+
+.logo {
+	color: black;
+	font-size: 36px;
+	font-family: Lucida Bright;
+	font-style: normal;
+	font-weight: 600;
+
+    padding:2px;
+	text-shadow: 0px 4px 4px rgba(0,0,0, 0.25);
+}
+
+.user_login ul {
+	list-style-type: none;
+}
+
+.user_login img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: black;
+}
+
+footer {
+    border-top: 2px solid black;
+    box-shadow: 0px 4px 4px gray;
+}

@@ -17,6 +17,7 @@ urlpatterns = [
     # url for test_pass application
     url(r'^$', views.index, name='index'),
     url(r'^home$', views.index, name='home'),
+    url(r'^about$', views.about, name='about'),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

@@ -45,12 +45,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="requirements.txt" />
+    <Content Include="test_pass\static\site.css" />
+    <Content Include="test_pass\templates\test_pass\about.html" />
     <Content Include="test_pass\templates\test_pass\index.html" />
+    <Content Include="test_pass\templates\test_pass\layout.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EnglishLab\" />
     <Folder Include="test_pass\" />
     <Folder Include="test_pass\migrations\" />
+    <Folder Include="test_pass\static\" />
     <Folder Include="test_pass\templates\" />
     <Folder Include="test_pass\templates\test_pass\" />
   </ItemGroup>
