@@ -47,8 +47,11 @@
     <Content Include="requirements.txt" />
     <Content Include="test_pass\static\site.css" />
     <Content Include="test_pass\templates\test_pass\about.html" />
+    <Content Include="test_pass\templates\test_pass\articles.html" />
     <Content Include="test_pass\templates\test_pass\index.html" />
     <Content Include="test_pass\templates\test_pass\layout.html" />
+    <Content Include="test_pass\templates\test_pass\news.html" />
+    <Content Include="test_pass\templates\test_pass\tests_list.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EnglishLab\" />

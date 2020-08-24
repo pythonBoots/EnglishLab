@@ -52,3 +52,14 @@ footer {
     border-top: 2px solid black;
     box-shadow: 0px 4px 4px gray;
 }
+
+section {
+    margin:20px auto;
+    width: 60%;
+}
+section h1 {
+    margin: 2px auto;
+}
+section p {
+    margin: 2px auto;
+}
